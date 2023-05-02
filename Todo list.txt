@@ -5,4 +5,4 @@ Debug with f1;
 Hotbar(0/3);
 	*visual;
 	*selectable slot;
-	*placable tiles;
+	*placeable tiles;
