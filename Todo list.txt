@@ -1,0 +1,8 @@
+Moving the camera with the player;
+World system;
+Running with shift;
+Debug with f1;
+Hotbar(0/3);
+	*visual;
+	*selectable slot;
+	*placable tiles;
