@@ -5,14 +5,14 @@ function Player:new(x, y, width, height)
 	self.y = y
 	self.width = width
 	self.height = height
-	self.speed = 200
+	self.speed = 50
 	self.life = 100
 
-	self.grid = anim8.newGrid(16, 16, 160, 208)
-	self.animations.down = anim8.newAnimation(self.grid('5-8', 11), 0.25)
-	self.animations.up = anim8.newAnimation(self.grid('5-8', 10), 0.25)
-	self.animations.left = anim8.newAnimation(self.grid('5-8', 12), 0.25)
-	self.animations.right = anim8.newAnimation(self.grid('5-8', 13), 0.25)
+	self.grid = anim8.newGrid(textureSize, textureSize, textures:getWidth(), textures:getHeight())
+	self.animations.down = anim8.newAnimation(self.grid('6-9', 11), 0.25)
+	self.animations.up = anim8.newAnimation(self.grid('6-9', 10), 0.25)
+	self.animations.left = anim8.newAnimation(self.grid('6-9', 12), 0.25)
+	self.animations.right = anim8.newAnimation(self.grid('6-9', 13), 0.25)
 
 	self.facing = self.animations.down
 end
@@ -49,5 +49,5 @@ function Player:update(dt)
 end
 
 function Player:draw()
-	self.facing:draw(textures, self.x, self.y, nil, 3.5)
+	self.facing:draw(textures, self.x, self.y)
 end

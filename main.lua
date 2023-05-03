@@ -1,4 +1,6 @@
 --alt + L  to run
+local World = require "world"
+
 function love.load()
 	Object = require "libs/classic"
 	anim8 = require "libs/anim8"
@@ -6,10 +8,10 @@ function love.load()
 
 	love.graphics.setDefaultFilter("nearest", "nearest")
 	textures = love.graphics.newImage("res/default.png")
+	textureSize = 16
 
-	
+	world = World.generateWorld(14, 10, textures)
 	p1 = Player(100, 50, 30, 30)
-
 end
 
 
@@ -19,5 +21,7 @@ end
 
 
 function love.draw()
+	love.graphics.scale(3.5)
+	World.draw(world)
 	p1:draw()
 end
