@@ -1,6 +1,39 @@
-Moving the camera with the player;
-Debug with f1;
-Hotbar(0/3);
-	*visual;
-	*selectable slot;
-	*placeable tiles;
+Java parity:
+	Moving the camera with the player;
+	Debug with f1;
+		*coordinates;
+		*current day;
+	Hotbar(0/3):
+		*visual;
+		*selectable slot;
+		*placing tiles;
+	Tile collision;
+	Energy and energy bar;
+	Health and health bar;
+	Main menu;
+	Pause menu;
+	Day/night cicle;
+	Support for multiple languages;
+
+Progress:
+	Double the animation speed when running;
+	Weather;
+	Seasons;
+	Debug with f1;
+		*world name;
+	Propper Save/Load system;
+	Propper world creation(0/5):
+		*Propper tile system;
+		*World creation menu;
+		*World creation algorithm;
+		*Seeds support;
+		*Multiple worlds Support;
+	Character creation;
+	Inventory system;
+	Tools;
+	Harvesting resources;
+	Crafting system;
+	Achievements system(0/?):
+		Achievements menu;
+		Achievements;
+		Achievements unlocking system;

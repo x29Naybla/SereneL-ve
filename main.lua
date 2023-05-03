@@ -1,4 +1,3 @@
---alt + L  to run
 local World = require "world"
 
 function love.load()
@@ -11,7 +10,7 @@ function love.load()
 	textureSize = 16
 
 	world = World.generateWorld(15, 10, textures)
-	p1 = Player(100, 50, 30, 30)
+	p1 = Player(100, 50)
 end
 
 

@@ -1,12 +1,9 @@
 Player = Object:extend()
-function Player:new(x, y, width, height)
+function Player:new(x, y)
 	self.animations = {}
 	self.x = x
 	self.y = y
-	self.width = width
-	self.height = height
 	self.speed = 50
-	self.life = 100
 
 	self.grid = anim8.newGrid(textureSize, textureSize, textures:getWidth(), textures:getHeight())
 	self.animations.down = anim8.newAnimation(self.grid('6-9', 11), 0.25)
