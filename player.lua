@@ -41,6 +41,12 @@ function Player:update(dt)
 		isMoving = true
 	end
 
+	if love.keyboard.isDown("lshift") then
+		self.speed = 100
+	else
+		self.speed = 50
+	end
+	
 	if isMoving == false then
 		self.facing:gotoFrame(5)
 	end

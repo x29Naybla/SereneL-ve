@@ -10,7 +10,7 @@ function World.generateWorld(width, height, textures)
         { id = rock_floor, texture = love.graphics.newQuad(32, 176, textureSize, textureSize, 176, 208), temperature = 2, walkable = true},
         { id = stones_floor, texture = love.graphics.newQuad(32, 192, textureSize, textureSize, 176, 208), temperature = 2, walkable = true},
     
-        { id = lava_floor, texture = love.graphics.newQuad(64, 176, 16, 16, 176, 208), temperature = 4, walkable = false},
+        { id = lava_floor, texture = love.graphics.newQuad(64, 176, textureSize, textureSize, 176, 208), temperature = 4, walkable = false},
         { id = water_floor, texture = love.graphics.newQuad(64, 192, textureSize, textureSize, 176, 208), temperature = 2, walkable = false},
     }
 

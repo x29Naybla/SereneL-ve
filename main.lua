@@ -10,7 +10,7 @@ function love.load()
 	textures = love.graphics.newImage("res/default.png")
 	textureSize = 16
 
-	world = World.generateWorld(14, 10, textures)
+	world = World.generateWorld(15, 10, textures)
 	p1 = Player(100, 50, 30, 30)
 end
 
@@ -21,7 +21,7 @@ end
 
 
 function love.draw()
-	love.graphics.scale(3.5)
+	love.graphics.scale(3)
 	World.draw(world)
 	p1:draw()
 end
