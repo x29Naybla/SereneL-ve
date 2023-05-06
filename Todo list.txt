@@ -1,5 +1,5 @@
 Java parity:
-	Moving the camera with the player;
+	Make the camera respect world boundaries;
 	Debug with f1;
 		*coordinates;
 		*current day;
@@ -10,10 +10,10 @@ Java parity:
 	Tile collision;
 	Energy and energy bar;
 	Health and health bar;
-	Main menu;
 	Pause menu;
 	Day/night cicle;
 	Support for multiple languages;
+	Fix menu velocity;
 
 Progress:
 	Double the animation speed when running;
