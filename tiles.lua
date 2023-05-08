@@ -10,7 +10,6 @@ tiles = {
     { id = "orange_flower", texture = love.graphics.newQuad(0, 4*tS, tS, tS, textures:getWidth(), textures:getHeight()), temperature = 2, fertile = false, walkable = true},
     { id = "yellow_flower", texture = love.graphics.newQuad(0, 5*tS, tS, tS, textures:getWidth(), textures:getHeight()), temperature = 2, fertile = false, walkable = true},
     { id = "cyan_flower", texture = love.graphics.newQuad(0, 6*tS, tS, tS, textures:getWidth(), textures:getHeight()), temperature = 2, fertile = false, walkable = true},
-
     { id = "blue_flower", texture = love.graphics.newQuad(1*tS, 3*tS, tS, tS, textures:getWidth(), textures:getHeight()), temperature = 2, fertile = false, walkable = true},
     { id = "purple_flower", texture = love.graphics.newQuad(1*tS, 4*tS, tS, tS, textures:getWidth(), textures:getHeight()), temperature = 2, fertile = false, walkable = true},
     { id = "pink_flower", texture = love.graphics.newQuad(1*tS, 5*tS, tS, tS, textures:getWidth(), textures:getHeight()), temperature = 2, fertile = false, walkable = true},
